@@ -7,7 +7,7 @@ public class POC {
 	
 	By cart =By.id("POC");
 	
-	public CartPage() {
+	public POC() {
 		
 	}
 	public void POC() {
