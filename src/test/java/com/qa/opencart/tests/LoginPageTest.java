@@ -41,9 +41,11 @@ public class LoginPageTest extends BaseTest{
 	@Description("login page forgot password test")
 	@Severity(SeverityLevel.CRITICAL)
 	
-	@Test 
+	@Test //(enabled = false) use this feature if this test case is still under process of developemnt and when we want to skip it 
 	public void forgotPwdLinkExistTest() {
 		Assert.assertTrue(logInPage.isforgotPwd());
+		
+	//if 		
 	}
 	
 	

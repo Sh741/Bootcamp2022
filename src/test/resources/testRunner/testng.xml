@@ -13,9 +13,20 @@
 
 	<test name="Login Page Test">
 		<classes>
-			<class name="com.qa.opencart.tests.LoginPageTest"></class>
+			<class name="com.qa.opencart.tests.LoginPageTest">
+
+			<methods>
+			<include name="loginPageTitleTest" />
+			<include name="loginPageURLTest" />
+			<exclude name="forgotPwdLinkExistTest" /> <!-- this particular test case is exclued-->
+			<include name="loginTest" />
+
+			</methods>
+			</class>
 		</classes>
 	</test>
+
+
 
 	<test name="Accounts Page Test">
 
